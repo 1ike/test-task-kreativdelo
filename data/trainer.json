@@ -1,0 +1,10 @@
+{
+  "taskText": "Напечатай",
+  "questions": [
+    { "image": "img/greens.png", "answer": "Зелень" },
+    { "image": "img/auchan.png", "answer": "Ашан" },
+    { "image": "img/tyumen.png", "answer": "Тюмень" },
+    { "image": "img/road-roller.png", "answer": "Каток" },
+    { "image": "img/ice-rink.png", "answer": "Каток" }
+  ]
+}
