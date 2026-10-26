@@ -1,5 +1,6 @@
-import { clearResults, loadResults } from './results-storage.js';
-import { createResultsScreen, showScreen } from './views.js';
+import { createResultsScreen } from './results-screen.js';
+import { clearResults, loadResults } from '../utils/results-storage.js';
+import { showScreen } from '../utils/screen.js';
 
 const QUESTIONS_PAGE_URL = '../index.html';
 

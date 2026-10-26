@@ -1,6 +1,8 @@
 import { Trainer } from './trainer.js';
-import { clearResults, saveResults } from './results-storage.js';
-import { createErrorScreen, createQuestionScreen, showScreen } from './views.js';
+import { createErrorScreen } from './error-screen.js';
+import { createQuestionScreen } from './question-screen.js';
+import { clearResults, saveResults } from '../utils/results-storage.js';
+import { showScreen } from '../utils/screen.js';
 
 const DATA_URL = 'data/trainer.json';
 const ANSWERS_PAGE_URL = 'pages/answers.html';
