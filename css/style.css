@@ -78,6 +78,14 @@ img {
   background-color: var(--color-surface);
   border: 0.5rem solid var(--color-card-border);
   border-radius: var(--radius);
+  /* показываем с задержкой, чтобы хинт не мелькал, пока грузятся модули */
+  animation: launch-hint-appear 0s 1s both;
+}
+
+@keyframes launch-hint-appear {
+  from {
+    visibility: hidden;
+  }
 }
 
 .icon {
